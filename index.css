@@ -1,0 +1,48 @@
+/* Reset some defaults */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800; /* Orange hover effect */
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
