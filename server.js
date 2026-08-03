@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
     res.send(`
         <h1>🚀 Express Server</h1>
-        <p>Welcome to my Express application.</p>
+        <p>Welcome to my Express application</p>
 
         <ul>
             <li><a href="/about">About</a></li>
