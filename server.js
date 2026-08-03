@@ -98,6 +98,11 @@ app.use((req, res) => {
     res.status(404).send("<h1>404 - Page Not Found</h1>");
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-});
+// Export app for testing; listen only when run directly
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server running at http://localhost:${PORT}`);
+    });
+}
+
+module.exports = app;
